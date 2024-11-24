@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="selenium">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/selenium-server-4.26.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/testng-7.10.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Extent Report V5.1.0/extentreports-5.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Extent Report V5.1.0/freemarker-2.3.32.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Extent Report V5.1.0/gson-2.10.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Extent Report V5.1.0/lombok-1.18.26.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Extent Report V5.1.0/reactive-streams-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Extent Report V5.1.0/rxjava-3.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
