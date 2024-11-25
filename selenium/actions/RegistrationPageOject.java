@@ -168,6 +168,7 @@ public class RegistrationPageOject extends BasePage {
     }
 
     public boolean isMobilePhoneWarning() {
+        sleepInSecond(3);
         String background_image = getCssValue(driver, RegistrationPageUI.PHONE_TEXT_BOX, "background-image");
         if (background_image.contains("circle")) {
             return true;

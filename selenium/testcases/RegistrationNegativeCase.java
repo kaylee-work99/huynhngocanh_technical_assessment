@@ -20,7 +20,6 @@ public class RegistrationNegativeCase extends BaseTest {
     String lastName = "Huynh";
     String email = "kaylee123@gmail.com";
     String gender = "Female";
-    String mobile = "0908765431";
     String dob = "01 Nov 1999";
     String address = "12/9 Tran Hung Dao, HCMC";
     String subject = "English";
@@ -38,7 +37,9 @@ public class RegistrationNegativeCase extends BaseTest {
     }
 
     @Test
-    public void TC_Mobile_Phone_Blank_Negative_Flow() {
+    public void TC_02_Mobile_Phone_Blank_Negative_Flow(Method method) {
+        ExtentTestManager.startTest(method.getName(), "TC 02 Register without Phone Number");
+
         ExtentTestManager.getTest().log(Status.INFO, "TC_02_Mobile_Phone_Blank - Step 01: Input to First Name textbox with value is " + firstName);
         registrationPage.inputToFirstname(firstName);
 

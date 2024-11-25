@@ -39,8 +39,8 @@ public class RegistrationHappyCase extends BaseTest {
 
 
     @Test
-    public void TC_Fill_Full_Information_Happy_Flow(Method method) {
-        ExtentTestManager.startTest(method.getName(), "TC_02_Mobile_Phone_Blank to system with full fields");
+    public void TC_01_Fill_Full_Information_Happy_Flow(Method method) {
+        ExtentTestManager.startTest(method.getName(), "TC 01 Register with full information");
 
         ExtentTestManager.getTest().log(Status.INFO, "TC_01_Fill_Full_Information - Step 01: Input to First Name textbox with value is " + firstName);
         registrationPage.inputToFirstname(firstName);
